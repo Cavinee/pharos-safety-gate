@@ -1,0 +1,11 @@
+{
+  "name": "pharos-safety-gate",
+  "version": "0.1.0",
+  "description": "Read-only on-chain contract risk scanner for Pharos AI agents (honeypot / mint / blacklist / proxy / ownership).",
+  "type": "module",
+  "bin": { "pharos-safety-gate": "scripts/safety-gate.mjs" },
+  "scripts": { "scan": "node scripts/safety-gate.mjs" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "keywords": ["pharos", "ai-agent", "skill", "security", "honeypot", "erc20", "web3"]
+}
